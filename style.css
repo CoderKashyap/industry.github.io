@@ -38,6 +38,7 @@
     --spacing-lg: 40px;
     --spacing-xl: 60px;
     --spacing-2xl: 80px;
+    --spacing-3xl: 100px;
 
     /* Font Sizes */
     --font-size-base: 1rem;
@@ -101,10 +102,10 @@ body {
 }
 
 .hero-content {
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     max-width: 900px;
     margin: auto;
@@ -113,8 +114,8 @@ body {
 .hero-inner {
     position: relative;
     z-index: 3;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
+    /* border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px; */
     padding: 80px 60px;
     display: flex;
     align-items: center;
@@ -137,9 +138,7 @@ body {
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: var(--spacing-xl) var(--spacing-md);
-    /* background-color: rgb(13, 144, 215); */
-
+    padding: var(--spacing-3xl) var(--spacing-md);
 
     /* background: linear-gradient(135deg, rgb(15, 145, 215) 0%, rgb(41, 165, 232) 100%); */
 
@@ -148,7 +147,7 @@ body {
     /* border: 2px solid black; */
     /* min-height: 100vh; */
     /* background-color: var(--color-primary); */
-    /* background-color: rgb(97, 97, 233); */
+    background-color: rgb(27, 27, 27);
 }
 
 .hero::before {
@@ -160,13 +159,15 @@ body {
     height: 100%;
     /* background-image: url('./images/heroBanner.jpg'); */
     /* background-image: url('./images/banner.jpg'); */
-    /* background-image: url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/hero-bg.webp'); */
+    background-image: url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/hero-bg.webp');
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     /* opacity: 0.4;
     /* z-index: 1; */
 }
+
+
 
 .hero-container {
     position: relative;
@@ -191,16 +192,16 @@ body {
     margin-bottom: var(--spacing-md);
     line-height: 1.2;
     font-family: Poppins;
-    /* color: white; */
-    color: black;
+    color: white;
+    /* color: black; */
 }
 
 .hero-subheadline {
     font-size: var(--font-size-xl);
     /* color: var(--color-text-light); */
-    /* color: white; */
+    color: white;
 
-    color: black;
+    /* color: black; */
     margin-bottom: var(--spacing-lg);
     line-height: 1.7;
     font-weight: var(--font-weight-normal);
@@ -209,9 +210,9 @@ body {
 
 .ctaInHero {
     display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .callUsBtnHeroSec {
@@ -239,13 +240,13 @@ body {
 
 .cta-button-industry-hero {
 
-    border: 2px solid rgb(224, 224, 224);
+    /* border: 2px solid rgb(224, 224, 224); */
 
     text-decoration: none;
 
     border-radius: 50px;
-    background-image: linear-gradient(to right, #646be5, #4bcbcd);
-    /* background-color: white; */
+    background-image: linear-gradient(to right, #52bae7, var(--color-primary));
+    /* background-color: var(--color-primary); */
     background-size: 200% 100%;
     background-position: left center;
     transition: background-position 0.6s ease-in-out;
@@ -268,8 +269,24 @@ body {
 }
 
 
+.cta-to-hero-heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.3;
+    color: #ffffff;
+    text-align: center;
+}
 
 
+.cta-to-hero-description {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.7;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
 
 
 .hero-section {
@@ -277,7 +294,8 @@ body {
     max-width: 1480px;
     margin: 0 auto;
     background: #000000;
-    border-radius: 20px;
+    border-radius: 6px;
+    /* border-radius: 20px; */
     padding: 60px;
     overflow: hidden;
 }
@@ -290,9 +308,9 @@ body {
     right: 0;
     bottom: 0;
     /* background: url('./images/businessTwo.jpg') center/cover no-repeat; */
-    
+
     /* background: url('https://image.slidesdocs.com/responsive-images/background/business-office-black-and-white-powerpoint-background_b2c639cebb__960_540.jpg') center/cover no-repeat; */
-    
+
     background: url('https://burst.shopifycdn.com/photos/laptop-from-above.jpg?width=1000&format=pjpg&exif=0&iptc=0') center/cover no-repeat;
     /* background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww') center/cover no-repeat; */
     opacity: 0.3;
@@ -333,7 +351,7 @@ body {
 
 .hero-image img {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     height: auto;
     filter: drop-shadow(var(--shadow-xl));
     border-radius: 10px;
@@ -410,7 +428,7 @@ body {
     margin-top: var(--spacing-xl);
 }
 
-.secondSection{
+.secondSection {
     overflow: hidden;
     position: relative;
 }
