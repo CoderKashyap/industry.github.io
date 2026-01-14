@@ -35,11 +35,14 @@
 
 .content-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr; */
+
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 equal columns */
     gap: 60px;
     align-items: start;
     max-width: 1200px;
-    margin:  20px auto;
+    margin: 60px auto 10px auto;
 }
 
 .stats-container {

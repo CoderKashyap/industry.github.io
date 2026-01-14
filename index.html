@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./resultsMatter.css">
     <link rel="stylesheet" href="./newComp.css">
     <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./faqs.css">
 
     <script src="./stats-counter.js"></script>
 
@@ -20,59 +21,6 @@
 </head>
 
 <body>
-
-    <style>
-        .carousel-container {
-            overflow: hidden;
-            width: 100%;
-
-            margin: 0 auto;
-            position: relative;
-        }
-
-        .carousel-track {
-            display: flex;
-            width: max-content;
-            gap: 40px;
-            animation: scroll 40s linear infinite;
-        }
-
-        .carousel-slide {
-            display: flex;
-            gap: 2rem;
-        }
-
-        .carousel-slide img {
-            max-height: 60px;
-            min-width: 150px;
-            object-fit: contain;
-        }
-
-        @keyframes scroll {
-            0% {
-                transform: translateX(0);
-            }
-
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        @media (max-width: 600px) {
-            .carousel-slide {
-                gap: 1rem;
-            }
-
-            .carousel-slide img {
-                max-height: 40px;
-                min-width: 80px;
-            }
-
-            .carousel-track {
-                animation-duration: 20s;
-            }
-        }
-    </style>
 
     <!-- Hero Section -->
 
@@ -456,18 +404,18 @@
 
                 </div> -->
 
-                 <div class="hero-button-wrapper">
-                        <a href="#" class="cta-button">
-                            Drive IT Growth Today
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <button class="callUsBtnHeroSec">
-                            <span>
-                                <i class="fa-solid fa-phone"></i>
-                            </span>
-                            <a href="tel:+919971544461" class="callusHero">Call Us</a>
-                        </button>
-                    </div>
+                <div class="hero-button-wrapper">
+                    <a href="#" class="cta-button">
+                        Drive IT Growth Today
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <button class="callUsBtnHeroSec">
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                        </span>
+                        <a href="tel:+919971544461" class="callusHero">Call Us</a>
+                    </button>
+                </div>
 
             </div>
         </div>
@@ -675,7 +623,46 @@
 
 
             <div class="images-grid">
-                <div class="image-card">
+
+                <div class="video-card"
+                    style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <video class="video-player" controls="">
+                        <source
+                            src="https://kumarharshit.in/wp-content/uploads/2025/07/harshit-kumar-seo-google-ai-overview.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h3 class="video-title">Google AI Overview Results</h3>
+                        <p class="video-description">
+                            See how Harshit Kumar appears as the top AI SEO specialist in Google's AI Overview feature
+                            with live search results.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="video-card"
+                    style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <video class="video-player" controls="">
+                        <source src="https://kumarharshit.in/wp-content/uploads/2025/07/harshit-kumar-seo-ChatGPT.mp4"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h3 class="video-title">ChatGPT Recognition</h3>
+                        <p class="video-description">
+                            Watch live search results showing Harshit Kumar being featured in ChatGPT responses for AI
+                            SEO specialist queries.
+                        </p>
+                    </div>
+                </div>
+
+
+              
+
+
+                <!-- <div class="image-card">
                     <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-58-1.webp"
                         alt="SEO Evolution Dashboard" loading="lazy">
                 </div>
@@ -690,460 +677,48 @@
                 <div class="image-card">
                     <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-53.png"
                         alt="ChatGPT Integration" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="components-dark-bg why-section">
-        <div class="component-container">
-            <div class="header-section">
-                <h1 class="component-title lighten-me">Our IT Marketing & Growth Services</h1>
-                <p class="component-para lighten-me-a-bit-more">
-                    Our services are purpose-built for IT services, technology consulting, managed services, and
-                    product-led tech companies with long buying cycles and complex decision processes.
-                </p>
-            </div>
-
-            <div class="content-wrapper">
-                <div class="services-list">
-                    <div class="service-item active"><span>Content & Authority Development</span><span
-                            class="arrow">›</span>
-                    </div>
-                    <div class="service-item"> <span>SEO, AEO & AI Search Optimization</span><span
-                            class="arrow">›</span>
-                    </div>
-                    <div class="service-item"></span> <span>Demand Generation & Paid Growth</span><span
-                            class="arrow">›</span>
-                    </div>
-                    <div class="service-item"></span> <span>Conversion Rate Optimization (CRO)</span><span
-                            class="arrow">›</span></div>
-                    <div class="service-item"></span> <span>Pipeline & Lead Conversion Optimization</span><span
-                            class="arrow">›</span></div>
-                    <div class="service-item"></span> <span>Marketing Automation & Buyer Nurturing</span><span
-                            class="arrow">›</span></div>
-                    <div class="service-item"></span> <span>Analytics, Attribution & Growth Intelligence</span><span
-                            class="arrow">›</span></div>
-                    <!-- <div class="service-item"></span> <span>Customer Experience, Retention & Expansion</span><span
-                            class="arrow">›</span></div> -->
-                    <div class="service-item"></span> <span>Social Media & B2B Influence Marketing</span><span
-                            class="arrow">›</span></div>
-                </div>
-
-                <!-- <div class="content-area">
-                    <div class="content-detail active">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <ul class="feature-list">
-                            <li>Competitor content gap analysis</li>
-                            <li>SEO-optimized product pages</li>
-                            <li>Case study development</li>
-                            <li>Educational blog content</li>
-                            <li>Technical whitepapers</li>
-                            <li>Product comparison guides</li>
-                            <li>Solution-focused pillar pages</li>
-                        </ul>
-                    </div>
-
-                    
                 </div> -->
-
-
-                <div class="content-area">
-
-                    <!-- Content & Authority Development -->
-                    <div class="content-detail active">
-                        <p>Technology buyers look for clarity, credibility, and proof before engaging.
-                            We create content that supports technical evaluation and internal decision-making not just
-                            awareness.</p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span> Use-case and solution-driven content frameworks
-                            </li>
-                            <li><span class="pulse-indicator"></span> Technical case studies and delivery proof</li>
-                            <li><span class="pulse-indicator"></span> Service and capability pages for complex offerings
-                            </li>
-                            <li><span class="pulse-indicator"></span> Comparison and alternative pages</li>
-                            <li><span class="pulse-indicator"></span> Industry-specific pillar content</li>
-                            <li><span class="pulse-indicator"></span> Whitepapers, playbooks, and evaluation guides</li>
-                        </ul>
-                    </div>
-
-                    <!-- SEO, AEO & AI Search Optimization -->
-                    <div class="content-detail">
-                        <p>Buyer discovery now happens across search engines and AI-powered answer platforms.
-                            We optimize your digital presence for SEO, AEO, and GEO to ensure visibility throughout the
-                            research cycle.</p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>Category, capability, and solution keyword mapping
-                            </li>
-                            <li><span class="pulse-indicator"></span>Technical SEO for complex websites and
-                                architectures</li>
-                            <li><span class="pulse-indicator"></span>Intent-based content and site architecture</li>
-                            <li><span class="pulse-indicator"></span>SERP feature and rich result optimization</li>
-                            <li><span class="pulse-indicator"></span>AI search and answer engine optimization</li>
-                            <li><span class="pulse-indicator"></span>Brand authority signals for AI visibility</li>
-                        </ul>
-                    </div>
-
-                    <!-- Demand Generation & Paid Growth -->
-                    <div class="content-detail">
-                        <p>We design demand programs aligned to your GTM motion and ICP, not broad lead generation.
-                        </p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>LinkedIn demand and account-based campaigns</li>
-                            <li><span class="pulse-indicator"></span>Search and paid media for high-intent queries</li>
-                            <li><span class="pulse-indicator"></span>ABM display and retargeting programs</li>
-                            <li><span class="pulse-indicator"></span>YouTube and video-led awareness campaigns</li>
-                            <li><span class="pulse-indicator"></span>Offer, positioning, and messaging testing</li>
-                        </ul>
-                    </div>
-
-                    <!-- Conversion Rate Optimization (CRO) -->
-                    <div class="content-detail">
-                        <p>Traffic without conversion efficiency slows growth.
-                            We optimize conversion paths to improve lead quality, sales readiness, and pipeline
-                            velocity.
-                        </p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>High-intent landing and demo page optimization</li>
-                            <li><span class="pulse-indicator"></span>CTA, form, and funnel conversion optimization</li>
-                            <li><span class="pulse-indicator"></span>Role-based messaging for buying committees</li>
-                            <li><span class="pulse-indicator"></span>Trust signals, proof placement, and friction
-                                reduction</li>
-                            <li><span class="pulse-indicator"></span>Continuous A/B testing and CRO experimentation</li>
-                        </ul>
-                    </div>
-
-                    <!-- Pipeline & Lead Conversion Optimization -->
-                    <div class="content-detail">
-                        <p>Generating leads isn’t enough.
-                            We focus on moving qualified demand forward through the funnel.
-                        </p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>Lead qualification and routing frameworks</li>
-                            <li><span class="pulse-indicator"></span>Marketing and sales alignment workflows</li>
-                            <li><span class="pulse-indicator"></span>MQL-to-SQL optimization strategies</li>
-                            <li><span class="pulse-indicator"></span>Deal-stage content and asset mapping</li>
-                            <li><span class="pulse-indicator"></span>Pipeline velocity and conversion improvement</li>
-                        </ul>
-                    </div>
-
-                    <!-- Marketing Automation & Buyer Nurturing -->
-                    <div class="content-detail">
-                        <p>Long buying cycles require consistent, relevant engagement over time.
-                            We build automation systems that support extended decision journeys.
-                        </p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>Lead nurturing and education sequences</li>
-                            <li><span class="pulse-indicator"></span>Onboarding and evaluation workflows</li>
-                            <li><span class="pulse-indicator"></span>Segmentation based on ICP and intent signals</li>
-                            <li><span class="pulse-indicator"></span>Service inquiry and conversion journeys</li>
-                            <li><span class="pulse-indicator"></span>Expansion and cross-sell campaign frameworks</li>
-                        </ul>
-                    </div>
-
-                    <!-- Analytics, Attribution & Growth Intelligence -->
-                    <!-- <div class="content-detail">
-                        <p>We measure what leadership teams care about pipeline, efficiency, and revenue contribution.
-                        </p>
-                        <ul class="feature-list">
-                            <li>Funnel and conversion path analysis</li>
-                            <li>Attribution modeling across channels</li>
-                            <li>Cost per opportunity and pipeline tracking</li>
-                            <li>CAC and LTV measurement</li>
-                            <li>A/B testing and continuous optimization</li>
-                        </ul>
-                    </div> -->
-
-                    <div class="content-detail">
-                        <p>Growth doesn’t stop at acquisition.
-                            We help companies improve adoption, retention, and long-term value through aligned marketing
-                            and customer experience strategies.</p>
-                        <ul class="feature-list">
-                            <li><span class="pulse-indicator"></span>Product and service adoption content</li>
-                            <li><span class="pulse-indicator"></span>Customer success enablement assets</li>
-                            <li><span class="pulse-indicator"></span>Engagement and retention campaigns</li>
-                            <li><span class="pulse-indicator"></span>Churn risk identification and mitigation</li>
-                            <li><span class="pulse-indicator"></span>Customer advocacy and proof programs</li>
-                        </ul>
-                    </div>
-
-                    <div class="content-detail">
-                        <p>Social media for technology companies is not about reach it’s about credibility, influence,
-                            and deal support.
-                            We help IT brands use social platforms to support long buying cycles, engage buying
-                            committees, and reinforce authority throughout the decision journey.
-                        </p>
-                        <ul class="feature-list">
-
-                            <li><span class="pulse-indicator"></span> LinkedIn organic strategy for IT decision-makers
-                            </li>
-
-
-                            <li><span class="pulse-indicator"></span>Executive and leadership personal branding (CXOs,
-                                founders)</li>
-
-
-                            <li><span class="pulse-indicator"></span>Thought leadership and technical narrative
-                                development</li>
-
-
-                            <li><span class="pulse-indicator"></span>Content distribution aligned to ICP and buyer
-                                stages</li>
-
-
-                            <li><span class="pulse-indicator"></span>Social proof amplification (case studies, wins,
-                                insights)</li>
-
-
-                            <li><span class="pulse-indicator"></span>Community engagement and conversation-led growth
-                            </li>
-
-
-                            <li><span class="pulse-indicator"></span>Social support for ABM and demand generation
-                                programs</li>
-
-
-
-                        </ul>
-                    </div>
-
-                </div>
-
-
             </div>
+
+
         </div>
     </section>
-
-
-
-
-
-
-
-
-    <!-- <div class="cta-tools">
-        <div class="left">
-            <img src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/services-template/large-symbol.svg"
-                alt="" loading="lazy">
-        </div>
-        <div class="right">
-            <div class="title">Ready to <span>accelerate</span> your SaaS growth?</div>
-            <a href="javascript:;" data-toggle="modal" data-target="#getStartedModal"
-                class="button button-orange__cta">Let's Talk</a>
-        </div>
-    </div> -->
 
 
 
 
 
     <section class="it-cta">
-        <div class="cta-container">
+        <div class="ai-cta-container">
 
-            <div class="cta-content-new">
-
-                <div class="right-side-cta">
-                    <h2>Let’s Build Something That Actually Grows Your Business</h2>
-                    <p>
-                        From websites and automation to AI and digital platforms, we design and deploy technology
-                        that delivers measurable results — not just promises.
-                    </p>
-
-                    <div class="cta-features">
-                        <span>✔ Custom Software & Websites</span>
-                        <span>✔ AI & Business Automation</span>
-                        <span>✔ Scalable IT Solutions</span>
-                        <span>✔ Dedicated Expert Support</span>
-                    </div>
-                </div>
-
-                <div class="cta-buttons">
-                    <!-- <a href="#" class="btn-primary">Get a Free Strategy Call</a> -->
-                    <div class="cta-button-wrapper">
-                        <a href="#" class="cta-button">
-                            Get a Free Strategy Call
-                            <!-- <i class="fas fa-arrow-right"></i> -->
-                            <i class="fa-solid fa-phone"></i>
-                        </a>
-                    </div>
-                    <a href="#" class="btn-secondary">View Our Work</a>
-                </div>
-
-
+            <div class="ai-cta-left">
+                <h2>
+                    Tired of marketing that doesn’t move
+                    your IT growth metrics?
+                </h2>
+                <p>Let us show you how specialized B2B IT marketing drives real results.</p>
             </div>
 
-        </div>
-    </section>
+            <div class="ai-cta-divider"></div>
 
-
-
-
-
-
-    <section class="components-dark-bg">
-        <div class="why-section">
-
-            <div class="header-section component-container">
-                <h2 class="component-title lighten-me">Results That Matter to IT Leaders</h2>
-                <p class="component-para lighten-me-a-bit-more">
-                    We measure success the same way IT leadership teams do by visibility, pipeline quality, and revenue
-                    efficiency, not surface metrics.
+            <div class="ai-cta-right">
+                <p>
+                    Your IT business invests significant time and budget into growth. Make sure your marketing supports
+                    pipeline, deal quality, and long-term revenue.
                 </p>
-                <p class="component-para lighten-me-a-bit-more">What Our IT Growth Programs Typically Deliver</p>
+
+                <a href="#" class="it-cta-btn">
+                    Drive IT Growth Today
+
+                    <i class="fas fa-arrow-right"></i>
+                </a>
             </div>
 
-            <div class="content-wrapper">
-
-                <div class="stats-container">
-
-                    <div class="stat-card">
-                        <div class="stat-number">150%</div>
-                        <div class="stat-content">
-                            <h3 class="lighten-me">Visibility Across Search & AI Discovery</h3>
-                            <p class="lighten-me-a-bit-more">Improved presence across organic search, AI answers, and
-                                high-intent research queries
-                                ensuring your brand shows up where IT buyers evaluate solutions.</p>
-                        </div>
-                    </div>
-
-                    <div class="stat-card">
-                        <div class="stat-number">25–35%</div>
-                        <div class="stat-content">
-                            <h3 class="lighten-me">Cost per Qualified Opportunity</h3>
-                            <p class="lighten-me-a-bit-more">Lower acquisition costs by targeting the right ICPs,
-                                improving conversion efficiency, and
-                                eliminating low-intent demand.</p>
-                        </div>
-                    </div>
-
-                    <div class="stat-card">
-                        <div class="stat-number">3–5×</div>
-                        <div class="stat-content">
-                            <h3 class="lighten-me">Faster Pipeline Movement</h3>
-                            <p class="lighten-me-a-bit-more">Stronger GTM alignment and CRO-driven funnels lead to
-                                shorter decision cycles and higher
-                                sales readiness for complex deals.</p>
-                        </div>
-                    </div>
-
-                    <div class="stat-card">
-                        <div class="stat-number">40%</div>
-                        <div class="stat-content">
-                            <h3 class="lighten-me">Conversion from High-Intent Traffic</h3>
-                            <p class="lighten-me-a-bit-more">Better landing experiences, clearer value articulation, and
-                                trust signals increase demo
-                                and
-                                inquiry conversion rates.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-mosaic">
-                    <div class="mosaic-tile tile-primary">
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&amp;w=2070"
-                            alt="Team Collaboration">
-                    </div>
-                    <div class="mosaic-tile tile-secondary">
-                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&amp;w=2070"
-                            alt="IT Development">
-                    </div>
-                    <div class="mosaic-tile tile-accent">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&amp;w=2015"
-                            alt="Analytics">
-                    </div>
-                </div>
+            <div class="it-cta-bg-shapes"></div>
 
 
-            </div>
         </div>
     </section>
-
 
 
 
@@ -1157,18 +732,28 @@
             <div class="floating-shape shape-three"></div>
         </div>
 
-        <div class="component-container why-section">
+        <div class="component-container-big why-section">
             <!-- Hero Header -->
             <div class="header-section">
+
                 <h2 class="component-title">
                     Why <span class="component-title-highlight">White Bunnie</span> Is the Right Growth Partner for IT
                     Companies
                 </h2>
+                <p class="component-para">
+                    White Bunnie helps IT companies turn complex services into predictable revenue. We combine deep
+                    industry understanding, conversion-focused marketing, and scalable growth systems to attract the
+                    right buyers, shorten sales cycles, and drive consistent pipeline growth — without wasting budget on
+                    vanity metrics.
+                </p>
             </div>
 
             <!-- Interactive Benefits Grid -->
             <div class="benefits-grid">
                 <div class="benefit-item">
+                    <img class="benefit-img"
+                        src="https://i.pinimg.com/564x/85/45/1d/85451d9fdeabafda8c88b033a04b22a4.jpg"
+                        alt="it-business-model">
                     <h3 class="benefit-header">We Know the IT Business Model</h3>
                     <p class="benefit-text">
                         We understand how IT companies grow from project-based and retainer-led models to long sales
@@ -1178,6 +763,9 @@
                 </div>
 
                 <div class="benefit-item">
+                    <img class="benefit-img"
+                        src="https://i.pinimg.com/564x/85/45/1d/85451d9fdeabafda8c88b033a04b22a4.jpg"
+                        alt="it-business-model">
                     <h3 class="benefit-header">We're Focused on Revenue and Pipeline</h3>
                     <p class="benefit-text">
                         While many agencies report on traffic and engagement, we focus on outcomes that matter to IT
@@ -1187,6 +775,9 @@
                 </div>
 
                 <div class="benefit-item">
+                    <img class="benefit-img"
+                        src="https://i.pinimg.com/564x/85/45/1d/85451d9fdeabafda8c88b033a04b22a4.jpg"
+                        alt="it-business-model">
                     <h3 class="benefit-header">Strategy That Connects GTM to Execution</h3>
                     <p class="benefit-text">
                         We don't run disconnected campaigns. We build integrated growth systems that align GTM strategy,
@@ -1195,6 +786,9 @@
                 </div>
 
                 <div class="benefit-item">
+                    <img class="benefit-img"
+                        src="https://i.pinimg.com/564x/85/45/1d/85451d9fdeabafda8c88b033a04b22a4.jpg"
+                        alt="it-business-model">
                     <h3 class="benefit-header">Cross-Touchpoint Expertise for Modern IT</h3>
                     <p class="benefit-text">
                         From AI search visibility (AEO/GEO) and technical SEO to CRO, demand acceleration, and RevOps
@@ -1210,12 +804,7 @@
 
 
 
-
-
     <div class="why-section component-container">
-        <!-- <div class="section-header">
-            <h2>See how clients achieve faster growth your smarter<br>outcomes with <span class="highlight">White Bunnie</span></h2>
-        </div> -->
 
         <div class="header-section">
             <h2 class="component-title">
@@ -1279,17 +868,409 @@
 
 
 
+    <!-- <section class="components-dark-bg why-section">
+        <div class="component-container">
+            <div class="header-section">
+                <h1 class="component-title lighten-me">Our IT Marketing & Growth Services</h1>
+                <p class="component-para lighten-me-a-bit-more">
+                    Our services are purpose-built for IT services, technology consulting, managed services, and
+                    product-led tech companies with long buying cycles and complex decision processes.
+                </p>
+            </div>
+
+            <div class="content-wrapper">
+                <div class="services-list">
+                    <div class="service-item active"><span>Content & Authority Development</span><span
+                            class="arrow">›</span>
+                    </div>
+                    <div class="service-item"> <span>SEO, AEO & AI Search Optimization</span><span
+                            class="arrow">›</span>
+                    </div>
+                    <div class="service-item"></span> <span>Demand Generation & Paid Growth</span><span
+                            class="arrow">›</span>
+                    </div>
+                    <div class="service-item"></span> <span>Conversion Rate Optimization (CRO)</span><span
+                            class="arrow">›</span></div>
+                    <div class="service-item"></span> <span>Pipeline & Lead Conversion Optimization</span><span
+                            class="arrow">›</span></div>
+                    <div class="service-item"></span> <span>Marketing Automation & Buyer Nurturing</span><span
+                            class="arrow">›</span></div>
+                    <div class="service-item"></span> <span>Analytics, Attribution & Growth Intelligence</span><span
+                            class="arrow">›</span></div>
+                    <div class="service-item"></span> <span>Social Media & B2B Influence Marketing</span><span
+                            class="arrow">›</span></div>
+                </div>
+
+                <div class="content-area">
+
+                    <div class="content-detail active">
+                        <p>Technology buyers look for clarity, credibility, and proof before engaging.
+                            We create content that supports technical evaluation and internal decision-making not just
+                            awareness.</p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span> Use-case and solution-driven content frameworks
+                            </li>
+                            <li><span class="pulse-indicator"></span> Technical case studies and delivery proof</li>
+                            <li><span class="pulse-indicator"></span> Service and capability pages for complex offerings
+                            </li>
+                            <li><span class="pulse-indicator"></span> Comparison and alternative pages</li>
+                            <li><span class="pulse-indicator"></span> Industry-specific pillar content</li>
+                            <li><span class="pulse-indicator"></span> Whitepapers, playbooks, and evaluation guides</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="content-detail">
+                        <p>Buyer discovery now happens across search engines and AI-powered answer platforms.
+                            We optimize your digital presence for SEO, AEO, and GEO to ensure visibility throughout the
+                            research cycle.</p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>Category, capability, and solution keyword mapping
+                            </li>
+                            <li><span class="pulse-indicator"></span>Technical SEO for complex websites and
+                                architectures</li>
+                            <li><span class="pulse-indicator"></span>Intent-based content and site architecture</li>
+                            <li><span class="pulse-indicator"></span>SERP feature and rich result optimization</li>
+                            <li><span class="pulse-indicator"></span>AI search and answer engine optimization</li>
+                            <li><span class="pulse-indicator"></span>Brand authority signals for AI visibility</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="content-detail">
+                        <p>We design demand programs aligned to your GTM motion and ICP, not broad lead generation.
+                        </p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>LinkedIn demand and account-based campaigns</li>
+                            <li><span class="pulse-indicator"></span>Search and paid media for high-intent queries</li>
+                            <li><span class="pulse-indicator"></span>ABM display and retargeting programs</li>
+                            <li><span class="pulse-indicator"></span>YouTube and video-led awareness campaigns</li>
+                            <li><span class="pulse-indicator"></span>Offer, positioning, and messaging testing</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="content-detail">
+                        <p>Traffic without conversion efficiency slows growth.
+                            We optimize conversion paths to improve lead quality, sales readiness, and pipeline
+                            velocity.
+                        </p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>High-intent landing and demo page optimization</li>
+                            <li><span class="pulse-indicator"></span>CTA, form, and funnel conversion optimization</li>
+                            <li><span class="pulse-indicator"></span>Role-based messaging for buying committees</li>
+                            <li><span class="pulse-indicator"></span>Trust signals, proof placement, and friction
+                                reduction</li>
+                            <li><span class="pulse-indicator"></span>Continuous A/B testing and CRO experimentation</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="content-detail">
+                        <p>Generating leads isn’t enough.
+                            We focus on moving qualified demand forward through the funnel.
+                        </p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>Lead qualification and routing frameworks</li>
+                            <li><span class="pulse-indicator"></span>Marketing and sales alignment workflows</li>
+                            <li><span class="pulse-indicator"></span>MQL-to-SQL optimization strategies</li>
+                            <li><span class="pulse-indicator"></span>Deal-stage content and asset mapping</li>
+                            <li><span class="pulse-indicator"></span>Pipeline velocity and conversion improvement</li>
+                        </ul>
+                    </div>
+
+                    
+                    <div class="content-detail">
+                        <p>Long buying cycles require consistent, relevant engagement over time.
+                            We build automation systems that support extended decision journeys.
+                        </p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>Lead nurturing and education sequences</li>
+                            <li><span class="pulse-indicator"></span>Onboarding and evaluation workflows</li>
+                            <li><span class="pulse-indicator"></span>Segmentation based on ICP and intent signals</li>
+                            <li><span class="pulse-indicator"></span>Service inquiry and conversion journeys</li>
+                            <li><span class="pulse-indicator"></span>Expansion and cross-sell campaign frameworks</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="content-detail">
+                        <p>Growth doesn’t stop at acquisition.
+                            We help companies improve adoption, retention, and long-term value through aligned marketing
+                            and customer experience strategies.</p>
+                        <ul class="feature-list">
+                            <li><span class="pulse-indicator"></span>Product and service adoption content</li>
+                            <li><span class="pulse-indicator"></span>Customer success enablement assets</li>
+                            <li><span class="pulse-indicator"></span>Engagement and retention campaigns</li>
+                            <li><span class="pulse-indicator"></span>Churn risk identification and mitigation</li>
+                            <li><span class="pulse-indicator"></span>Customer advocacy and proof programs</li>
+                        </ul>
+                    </div>
+
+                    <div class="content-detail">
+                        <p>Social media for technology companies is not about reach it’s about credibility, influence,
+                            and deal support.
+                            We help IT brands use social platforms to support long buying cycles, engage buying
+                            committees, and reinforce authority throughout the decision journey.
+                        </p>
+                        <ul class="feature-list">
+
+                            <li><span class="pulse-indicator"></span> LinkedIn organic strategy for IT decision-makers
+                            </li>
+
+
+                            <li><span class="pulse-indicator"></span>Executive and leadership personal branding (CXOs,
+                                founders)</li>
+
+
+                            <li><span class="pulse-indicator"></span>Thought leadership and technical narrative
+                                development</li>
+
+
+                            <li><span class="pulse-indicator"></span>Content distribution aligned to ICP and buyer
+                                stages</li>
+
+
+                            <li><span class="pulse-indicator"></span>Social proof amplification (case studies, wins,
+                                insights)</li>
+
+
+                            <li><span class="pulse-indicator"></span>Community engagement and conversation-led growth
+                            </li>
+
+
+                            <li><span class="pulse-indicator"></span>Social support for ABM and demand generation
+                                programs</li>
+
+
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+
+
+
+    <section class="components-dark-bg">
+        <div class="why-section">
+
+            <div class="header-section component-container">
+                <h2 class="component-title lighten-me">Results That Matter to IT Leaders</h2>
+                <p class="component-para lighten-me-a-bit-more">
+                    We measure success the same way IT leadership teams do by visibility, pipeline quality, and revenue
+                    efficiency, not surface metrics.
+                </p>
+                <p class="component-para lighten-me-a-bit-more">What Our IT Growth Programs Typically Deliver</p>
+            </div>
+
+            <div class="content-wrapper">
+
+                <!-- <div class="stats-container"> -->
+
+                <div class="stat-card">
+                    <div class="stat-number">150%</div>
+                    <div class="stat-content">
+                        <h3 class="lighten-me">Visibility Across Search & AI Discovery</h3>
+                        <p class="lighten-me-a-bit-more">Improved presence across organic search, AI answers, and
+                            high-intent research queries
+                            ensuring your brand shows up where IT buyers evaluate solutions.</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">35%</div>
+                    <div class="stat-content">
+                        <h3 class="lighten-me">Cost per Qualified Opportunity</h3>
+                        <p class="lighten-me-a-bit-more">Lower acquisition costs by targeting the right ICPs,
+                            improving conversion efficiency, and
+                            eliminating low-intent demand.</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">5×</div>
+                    <div class="stat-content">
+                        <h3 class="lighten-me">Faster Pipeline Movement</h3>
+                        <p class="lighten-me-a-bit-more">Stronger GTM alignment and CRO-driven funnels lead to
+                            shorter decision cycles and higher
+                            sales readiness for complex deals.</p>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-number">40%</div>
+                    <div class="stat-content">
+                        <h3 class="lighten-me">Conversion from High-Intent Traffic</h3>
+                        <p class="lighten-me-a-bit-more">Better landing experiences, clearer value articulation, and
+                            trust signals increase demo
+                            and
+                            inquiry conversion rates.</p>
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="image-mosaic">
+                    <div class="mosaic-tile tile-primary">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&amp;w=2070"
+                            alt="Team Collaboration">
+                    </div>
+                    <div class="mosaic-tile tile-secondary">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&amp;w=2070"
+                            alt="IT Development">
+                    </div>
+                    <div class="mosaic-tile tile-accent">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&amp;w=2015"
+                            alt="Analytics">
+                    </div>
+                </div> -->
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="faq-wrap">
+        <div class="faq-container">
+
+            <!-- LEFT IMAGE -->
+            <div class="faq-image">
+                <img src="https://images.unsplash.com/flagged/photo-1553642618-de0381320ff3" alt="FAQ Image">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="faq-content">
+
+                <h2>Frequently Asked Questions</h2>
+                <p class="faq-subtitle">
+                    Our dedicated team of experts is committed to understanding your unique needs and objectives,
+                    working closely with you to develop and execute.
+                </p>
+
+                <a href="#" class="faq-btn">Get Started Now</a>
+
+                <div class="faq-list">
+
+                    <div class="faq-item active">
+                        <div class="faq-question">
+                            <span>How does SaaS differ from traditional software?</span>
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </div>
+                        <div class="faq-answer">
+                            SaaS is subscription-based and centrally hosted. Users pay a recurring fee to access the
+                            software over the internet,
+                            eliminating the need for upfront costs and ongoing maintenance.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How customizable is SaaS software?</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            SaaS platforms allow extensive customization including workflows, integrations, dashboards
+                            and user roles.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What happens to my data if I cancel my subscription?</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            You can export your data anytime. We securely store it for a limited time after
+                            cancellation.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What are the benefits of using SaaS?</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Lower cost, fast deployment, remote access, automatic updates and enterprise-level security.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How does pricing work for SaaS products?</span>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Pricing is usually based on users, usage, or features, giving flexibility for growing
+                            businesses.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
 
 
 
     <section class="contact-section">
-        <div class="container">
-            <div class="left-content">
-                <h1>Have Questions? <span class="highlight">Book a meeting to contact us</span></h1>
+        <div class="container-contact">
+            <!-- <div class="left-content">
+                <h2>Let’s Make Your Brand Unmissable,  
+          While Your Competitors Wonder How You Did It!</h2>
                 <p>Request a one-on-one meeting with our experts to discuss your unique challenges and opportunities.
                 </p>
 
+                <button class="callUsBtnHeroSec">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <a href="tel:+919971544461" class="callusHero">Call Us</a>
+                </button>
+            </div> -->
+
+            <div class="contact-text">
+                <h2>Let’s Make Your Brand Unmissable,
+                    While Your Competitors Wonder How You Did It!</h2>
+
+                <p>Have questions? Reach out to the team and discover what’s possible when strategy, creativity and
+                    performance come together.</p>
+
+                <p class="bold">We are here to listen, collaborate, and help you shine, louder and longer.</p>
+
+                <div class="cta-buttons">
+                    <a href="tel:945648688" class="btn-primary">
+                        <i class="fa-solid fa-phone"></i> Call Us Now </a>
+                    <a href="#" class="btn-outline">Book a Call
+                        <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
+
 
             <div class="form-container">
                 <h2>Book a Consultation</h2>
@@ -1328,7 +1309,40 @@
 
 
 
+
     <script>
+
+
+
+
+        document.querySelectorAll(".faq-item").forEach(item => {
+            item.addEventListener("click", () => {
+
+                document.querySelectorAll(".faq-item").forEach(el => {
+                    if (el !== item) {
+                        el.classList.remove("active");
+                        el.querySelector("i").className = "fa-solid fa-arrow-down";
+                    }
+                });
+
+                item.classList.toggle("active");
+                const icon = item.querySelector("i");
+
+                if (item.classList.contains("active")) {
+                    icon.className = "fa-solid fa-arrow-up";
+                } else {
+                    icon.className = "fa-solid fa-arrow-down";
+                }
+
+            });
+        });
+
+
+
+
+
+
+
         const serviceItems = document.querySelectorAll('.service-item');
         const contentDetails = document.querySelectorAll('.content-detail');
 
@@ -1348,9 +1362,6 @@
 
 
         const logos = [
-            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/UofOxford.webp",
-            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/UofCalifornia.webp",
-            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/theworldbank.webp",
             "https://whitebunnie.com/wp-content/uploads/2025/10/Netrika-logo.png",
             "https://whitebunnie.com/wp-content/uploads/2025/10/english_horizontal_coreops-Yg2q6NQj33uEajl5.png",
             "https://whitebunnie.com/wp-content/uploads/2025/10/hexaview.png", "https://www.gropto.com/assets/groptoLogo.webp", "https://whitebunnie.com/wp-content/uploads/2025/10/Logo-2-Photoroom.png", "https://whitebunnie.com/wp-content/uploads/2026/01/LOGO-Black-scaled.png"

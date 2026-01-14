@@ -229,12 +229,12 @@ body {
 }
 
 .callUsBtnHeroSec {
-    border: 1px solid black;
-    border-radius: 50px;
+    border: 1px solid white;
+    color: #000;
     background: white;
+    border-radius: 50px;
     cursor: pointer;
     z-index: 1;
-    color: #000;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -285,7 +285,7 @@ body {
 
 
 .cta-to-hero-heading {
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 1.3;
@@ -397,9 +397,14 @@ body {
     position: relative;
 }
 
-/* .why-header {
-    margin-bottom: var(--spacing-xl);
-} */
+
+.component-container-big {
+    max-width: 1350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
 
 .component-title {
     font-size: var(--font-size-4xl);
@@ -526,7 +531,8 @@ body {
 
 
 .components-dark-bg {
-    background: linear-gradient(135deg, #000000, #1a1a2e);
+    /* background: linear-gradient(135deg, #000000, #1a1a2e); */
+    background: linear-gradient(135deg, rgb(10, 15, 31), rgb(15, 23, 42));
 }
 
 
