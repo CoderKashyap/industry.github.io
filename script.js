@@ -104,7 +104,7 @@ const accordionData = [
     {
         title: "Pipeline & Lead Conversion Optimization",
         subtitle: "Generating leads isn't enough. We focus on moving qualified demand forward through the funnel.",
-                image: "./images/general.jpg",
+        image: "./images/general.jpg",
 
         items: [
             "Lead qualification and routing frameworks",
@@ -267,6 +267,14 @@ function initAccordion() {
 
         // Click event
         header.addEventListener('click', toggleAccordion);
+        header.addEventListener('mouseenter', toggleAccordion);
+
+        item.addEventListener('mouseleave', () => {
+            item.classList.remove('active');
+            content.style.maxHeight = '0px';
+        });
+
+
 
         // Keyboard accessibility
         header.addEventListener('keydown', (e) => {
