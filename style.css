@@ -6,6 +6,7 @@
     /* Primary Colors */
     /* --color-primary: rgb(41, 165, 232); */
     --color-primary: #23a4ff;
+    /* --color-primary: #23a4ff; */
     /* --color-primary: #5478d1; */
     --color-primary-light: #8f7459;
     --color-primary-dark: #65533c;
@@ -92,7 +93,7 @@ body {
 /* ==================== HERO SECTION ==================== */
 
 .hero-wrapper {
-    padding: 30px 20px;
+    /* padding: 30px 0px; */
     background: #f5f5f5;
 
     /* display: flex;
@@ -101,35 +102,45 @@ body {
     flex-direction: column; */
 }
 
-.hero-content {
+.cta-content {
     /* text-align: center; */
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
-    max-width: 900px;
-    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.cta-content-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-inner {
     position: relative;
     z-index: 3;
-    /* border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 16px; */
-    padding: 0px 60px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-    gap: 40px;
 }
 
 
 .hero-button-wrapper {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
+    flex-direction: column;
     gap: 16px;
     align-items: center;
     justify-content: center;
+}
+
+.hero-content-wrapper {
+    max-width: 600px;
 }
 
 
@@ -147,7 +158,7 @@ body {
     /* border: 2px solid black; */
     /* min-height: 100vh; */
     /* background-color: var(--color-primary); */
-    /* background-color: rgb(27, 27, 27); */
+    background-color: white;
 }
 
 .hero::before {
@@ -157,15 +168,15 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./images/arvr.jpg');
+    /* background-image: url('./images/arvr.jpg'); */
     /* background-image: url('./images/heroBanner.jpg'); */
     /* background-image: url('./images/banner.jpg'); */
     /* background-image: url('https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/hero-bg.webp'); */
     background-size: cover;
-    /* background-position: center; */
+    /* background-position: center; 
     background-repeat: no-repeat;
     /* opacity: 0.4;
-    /* z-index: 1;
+     z-index: 1; */
 }
 
 
@@ -199,13 +210,13 @@ body {
 }
 
 .hero-subheadline {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
     /* color: var(--color-text-light); */
     /* color: white; */
 
     color: black;
     margin-bottom: var(--spacing-lg);
-    line-height: 1.7;
+    line-height: 1.5;
     font-weight: var(--font-weight-normal);
     opacity: 0.95;
 }
@@ -218,7 +229,7 @@ body {
 }
 
 .callUsBtnHeroSec {
-    border: 1px ;
+    border: 1px solid black;
     border-radius: 50px;
     background: white;
     cursor: pointer;
@@ -248,12 +259,13 @@ body {
     text-decoration: none;
 
     border-radius: 50px;
-    background-image: linear-gradient(to right, #36c3ff, var(--color-primary));
+    /* background-image: linear-gradient(to right, #36c3ff, var(--color-primary)); */
+
+    background-image: linear-gradient(to right, #646be5, #4bcbcd);
     /* background-color: var(--color-primary); */
     background-size: 200% 100%;
     background-position: left center;
     transition: background-position 0.6s ease-in-out;
-
 
     cursor: pointer;
     z-index: 1;
@@ -273,12 +285,12 @@ body {
 
 
 .cta-to-hero-heading {
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 1.3;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -286,24 +298,24 @@ body {
     font-size: 17px;
     color: rgba(255, 255, 255, 0.75);
     line-height: 1.7;
-    max-width: 700px;
-    text-align: center;
-    margin: auto;
+    /* max-width: 700px; */
+    text-align: left;
+    /* margin: auto; */
 }
 
 
-.hero-section {
+.cta-section-home {
     position: relative;
-    max-width: 1480px;
+    /* max-width: 1480px; */
     margin: 0 auto;
     background: #000000;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     /* border-radius: 20px; */
-    padding: 60px;
+    padding: 50px;
     overflow: hidden;
 }
 
-.hero-section::before {
+.cta-section-home::before {
     content: '';
     position: absolute;
     top: 0;
@@ -314,7 +326,8 @@ body {
 
     /* background: url('https://image.slidesdocs.com/responsive-images/background/business-office-black-and-white-powerpoint-background_b2c639cebb__960_540.jpg') center/cover no-repeat; */
 
-    background: url('https://burst.shopifycdn.com/photos/laptop-from-above.jpg?width=1000&format=pjpg&exif=0&iptc=0') center/cover no-repeat;
+    background: url('https://images.pexels.com/photos/316681/pexels-photo-316681.jpeg') center/cover no-repeat;
+    /* background: url('https://burst.shopifycdn.com/photos/laptop-from-above.jpg') center/cover no-repeat; */
     /* background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29kaW5nfGVufDB8fDB8fHww') center/cover no-repeat; */
     opacity: 0.3;
     z-index: 1;
@@ -354,9 +367,9 @@ body {
 
 .hero-image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     height: auto;
-    filter: drop-shadow(var(--shadow-xl));
+    /* filter: drop-shadow(var(--shadow-xl)); */
     border-radius: 10px;
     /* animation: float 6s ease-in-out infinite; */
 }
@@ -390,7 +403,7 @@ body {
 
 .component-title {
     font-size: var(--font-size-4xl);
-    font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-extrabold);
     color: var(--color-text-dark);
     margin-bottom: var(--spacing-sm);
     /* line-height: 1.2; */
@@ -398,15 +411,15 @@ body {
 }
 
 .component-title-highlight {
-    /* color: var(--color-primary); */
-    font-weight: var(--font-weight-bold);
+    color: #5478d1;
+    /* font-weight: var(--font-weight-bold); */
 
-    background: linear-gradient(135deg, var(--color-primary), #99dbff);
+    /* background: linear-gradient(135deg, var(--color-primary), #99dbff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    display: inline-block; */
     margin-bottom: 10px;
-    display: inline-block;
 
 }
 
@@ -725,13 +738,16 @@ img {
 
 
 
+
+
+
 /* ==================== RESPONSIVE ==================== */
 
 
 /* Tablet */
 @media (max-width: 1024px) {
 
-    .hero-section {
+    .cta-section-home {
         padding: 50px 40px;
     }
 
@@ -763,7 +779,7 @@ img {
 /* Mobile */
 @media (max-width: 768px) {
 
-    .hero-section {
+    .cta-section-home {
         padding: 30px 20px;
     }
 

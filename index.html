@@ -20,6 +20,60 @@
 </head>
 
 <body>
+
+    <style>
+        .carousel-container {
+            overflow: hidden;
+            width: 100%;
+
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .carousel-track {
+            display: flex;
+            width: max-content;
+            gap: 40px;
+            animation: scroll 40s linear infinite;
+        }
+
+        .carousel-slide {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .carousel-slide img {
+            max-height: 60px;
+            min-width: 150px;
+            object-fit: contain;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .carousel-slide {
+                gap: 1rem;
+            }
+
+            .carousel-slide img {
+                max-height: 40px;
+                min-width: 80px;
+            }
+
+            .carousel-track {
+                animation-duration: 20s;
+            }
+        }
+    </style>
+
     <!-- Hero Section -->
 
 
@@ -27,6 +81,7 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-headline-ji">IT Industry Growth & Demand Acceleration for Complex Tech Brands</h1>
+
                 <p class="hero-subheadline">Enable IT service providers, product engineering firms, and enterprise tech
                     teams to convert long sales cycles into predictable pipeline, measurable revenue, and market
                     authority.</p>
@@ -42,33 +97,31 @@
                     </button>
                 </div>
 
-                <!-- <div class="hero-button-wrapper">
-                    <a href="#" class="cta-button">
-                        Book Growth Strategy Call
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                    <button class="callUsBtnHeroSec">
-                        <span>
-                            <i class="fa-solid fa-phone"></i>
-                        </span>
-                        <a href="tel:+919971544461" class="callusHero">Call Us</a>
-                    </button>
-                </div> -->
 
             </div>
 
-            <!-- <div class="hero-image"> -->
-            <!-- <img src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/services-template/main-graphic.webp"
+            <div class="hero-image">
+                <!-- <img src="https://www.singlegrain.com/wp-content/themes/singlegrain/assets/dist/images/redesign2024/services-template/main-graphic.webp"
                     alt="IT Growth Illustration"> -->
-            <!-- <img src="./images/htmlCss.jpg" alt="IT Growth Illustration">
-            </div> -->
+                <img src="./images/website-hero.jpg" alt="IT Growth Illustration">
+            </div>
         </div>
 
     </section>
 
 
 
-    <section class="logo-section">
+
+    <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+            <!-- Logos will be inserted via JavaScript -->
+        </div>
+    </div>
+
+
+
+
+    <!-- <section class="logo-section">
         <h2>Trusted by Leading Brands Around the Globe</h2>
 
         <div class="logo-grid">
@@ -94,11 +147,12 @@
                 <img src="https://whitebunnie.com/wp-content/uploads/2025/10/Netrika-logo.png" alt="Brand Logo 6">
             </div>
         </div>
-    </section>
+
+    </section> -->
 
 
 
-    <div class="divider"></div>
+    <div class="divider-hero"></div>
 
 
 
@@ -180,18 +234,21 @@
 
 
     <section class="hero-wrapper">
-        <div class="hero-section">
+        <div class="cta-section-home">
 
             <div class="hero-inner">
-                <div class="hero-content">
-                    <!-- <p class="cta-eyebrow">Tired of marketing that doesn't move IT growth metrics?</p> -->
-                    <h1 class="cta-to-hero-heading">
-                        Let us show you how specialized B2B IT marketing drives real results.
-                    </h1>
-                    <p class="cta-to-hero-description">
+                <div class="cta-content-box">
+
+                    <div class="hero-content-wrapper">
+                        <p class="cta-eyebrow">Tired of marketing that doesn't move IT growth metrics?</p>
+                        <h1 class="cta-to-hero-heading">
+                            Let us show you how specialized B2B IT marketing drives real results.
+                        </h1>
+                        <!-- <p class="cta-to-hero-description">
                         Your IT business invests significant time and budget into growth. Make sure your marketing
                         supports pipeline, deal quality, and long-term revenue.
-                    </p>
+                    </p> -->
+                    </div>
 
                     <div class="hero-button-wrapper">
                         <a href="#" class="cta-button">
@@ -376,112 +433,47 @@
 
 
 
-    <div class="component-container why-section">
-        <div class="header-section">
-            <h2 class="component-title">
-                Our IT Marketing & Growth Services
-            </h2>
-            <p class="component-para">Our services are purpose-built for IT services, technology consulting, managed
-                services, and product-led tech companies with long buying cycles and complex decision processes.</p>
-        </div>
-
-        <div class="main-layout">
-            <div class="image-section">
-                <div class="image-wrapper">
-                    <img src="./images/general.jpg" alt="IT Services Team">
-                    <!-- <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80" alt="IT Services Team"> -->
-                </div>
-            </div>
-
-            <div class="accordion-section">
-                <div class="accordion-wrapper" id="accordionWrapper">
-                    <!-- Accordion items will be dynamically generated -->
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="seo-section why-section">
-
-        <div class="component-container">
-            <div class="header-section">
-                <h2 class="component-title">
-                    SEO Has Evolved, So Have the Search Engines
-                </h2>
-                <p class="component-para">In 2024, just 1% of traffic came from AI results. In 2025, it’s over 5%. We’re
-                    not just ranking on Google - we’re showing up in ChatGPT, AI Overviews, and beyond.</p>
-            </div>
-
-
-            <div class="images-grid">
-                <div class="image-card">
-                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-58-1.webp"
-                        alt="SEO Evolution Dashboard" loading="lazy">
-                </div>
-                <div class="image-card">
-                    <img src="https://whitebunnie.com/wp-content/uploads/2025/10/google.png" alt="Google Search Results"
-                        loading="lazy">
-                </div>
-                <div class="image-card">
-                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-54.png"
-                        alt="AI Search Results" loading="lazy">
-                </div>
-                <div class="image-card">
-                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-53.png"
-                        alt="ChatGPT Integration" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
 
     <section class="cta-wrapper">
         <div class="cta-section">
 
             <div class="cta-inner">
                 <div class="cta-content">
-                    <p class="cta-eyebrow">Tired of marketing that doesn't move IT growth metrics?</p>
+                    <!-- <p class="cta-eyebrow">Tired of marketing that doesn't move IT growth metrics?</p> -->
                     <h2 class="cta-heading">
-                        Let us show you how specialized B2B IT marketing drives real results.
+                        Ready to turn IT demand into real pipeline?
                     </h2>
                     <p class="cta-description">
-                        Your IT business invests significant time and budget into growth. Make sure your marketing
-                        supports pipeline, deal quality, and long-term revenue.
+                        Your IT business invests significant time and budget into growth.
                     </p>
                 </div>
 
-                <div class="cta-button-wrapper">
+                <!-- <div class="cta-button-wrapper">
                     <a href="#" class="cta-button">
                         Drive IT Growth Today
                         <i class="fas fa-arrow-right"></i>
                     </a>
-                </div>
+
+                </div> -->
+
+                 <div class="hero-button-wrapper">
+                        <a href="#" class="cta-button">
+                            Drive IT Growth Today
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <button class="callUsBtnHeroSec">
+                            <span>
+                                <i class="fa-solid fa-phone"></i>
+                            </span>
+                            <a href="tel:+919971544461" class="callusHero">Call Us</a>
+                        </button>
+                    </div>
+
             </div>
         </div>
     </section>
+
+
 
 
 
@@ -636,6 +628,84 @@
         </section>
 
     </section>
+
+
+
+
+
+
+    <div class="component-container why-section">
+        <div class="header-section">
+            <h2 class="component-title">
+                Our IT Marketing & Growth Services
+            </h2>
+            <p class="component-para">Our services are purpose-built for IT services, technology consulting, managed
+                services, and product led tech companies with long buying cycles and complex decision processes.</p>
+        </div>
+
+        <div class="main-layout">
+            <div class="image-section">
+                <div class="image-wrapper">
+                    <img id="accordionImage" src="./images/general.jpg" alt="IT Services Team">
+                </div>
+            </div>
+
+            <div class="accordion-section">
+                <div class="accordion-wrapper" id="accordionWrapper">
+                    <!-- Accordion items will be dynamically generated -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <section class="seo-section why-section">
+
+        <div class="component-container">
+            <div class="header-section">
+                <h2 class="component-title">
+                    SEO Has Evolved, So Have the Search Engines
+                </h2>
+                <p class="component-para">In 2024, just 1% of traffic came from AI results. In 2025, it’s over 5%. We’re
+                    not just ranking on Google - we’re showing up in ChatGPT, AI Overviews, and beyond.</p>
+            </div>
+
+
+            <div class="images-grid">
+                <div class="image-card">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-58-1.webp"
+                        alt="SEO Evolution Dashboard" loading="lazy">
+                </div>
+                <div class="image-card">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2025/10/google.png" alt="Google Search Results"
+                        loading="lazy">
+                </div>
+                <div class="image-card">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-54.png"
+                        alt="AI Search Results" loading="lazy">
+                </div>
+                <div class="image-card">
+                    <img src="https://whitebunnie.com/wp-content/uploads/2025/12/Untitled-design-53.png"
+                        alt="ChatGPT Integration" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1218,7 +1288,7 @@
                 <h1>Have Questions? <span class="highlight">Book a meeting to contact us</span></h1>
                 <p>Request a one-on-one meeting with our experts to discuss your unique challenges and opportunities.
                 </p>
-               
+
             </div>
 
             <div class="form-container">
@@ -1270,6 +1340,44 @@
                 contentDetails[index].classList.add('active');
             });
         });
+
+
+
+
+
+
+
+        const logos = [
+            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/UofOxford.webp",
+            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/UofCalifornia.webp",
+            // "https://slategray-marten-797891.hostingersite.com/wp-content/uploads/2025/12/theworldbank.webp",
+            "https://whitebunnie.com/wp-content/uploads/2025/10/Netrika-logo.png",
+            "https://whitebunnie.com/wp-content/uploads/2025/10/english_horizontal_coreops-Yg2q6NQj33uEajl5.png",
+            "https://whitebunnie.com/wp-content/uploads/2025/10/hexaview.png", "https://www.gropto.com/assets/groptoLogo.webp", "https://whitebunnie.com/wp-content/uploads/2025/10/Logo-2-Photoroom.png", "https://whitebunnie.com/wp-content/uploads/2026/01/LOGO-Black-scaled.png"
+        ];
+
+
+
+        const track = document.getElementById("carouselTrack");
+
+        function createSlide() {
+            const slide = document.createElement("div");
+            slide.classList.add("carousel-slide", "logo-item");
+            logos.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = "Logo";
+                slide.appendChild(img);
+            });
+            return slide;
+        }
+
+        // Create two identical slides for seamless scrolling
+        const slide1 = createSlide();
+        const slide2 = createSlide();
+        track.appendChild(slide1);
+        track.appendChild(slide2);
+
     </script>
 
 
