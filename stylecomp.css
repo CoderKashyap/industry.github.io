@@ -220,6 +220,13 @@
   margin: 4rem auto;
 }
 
+.divider-no-padding {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #e0e0e0 50%, transparent 100%);
+  margin: auto;
+}
+
 .trust-badge {
   text-align: center;
   margin-top: 60px;
