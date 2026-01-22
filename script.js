@@ -271,7 +271,7 @@ function initAccordion() {
 
         item.addEventListener('mouseleave', () => {
             item.classList.remove('active');
-            content.style.maxHeight = '0px';
+            content.style.maxHeight = '0px';1
         });
 
 
