@@ -1,12 +1,10 @@
  .contact-section {
-     /* background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); */
 
-     background: linear-gradient(135deg, #5d69ed 0%, #6d78f2 100%);
-     /* min-height: 100vh; */
+     background: linear-gradient(135deg, #707074 0%, #3c3c42 100%);
+     /* background: linear-gradient(135deg, #5d69ed 0%, #6d78f2 100%); */
+
      display: flex;
      align-items: center;
-     /* padding: 60px 20px; */
-
 
      position: relative;
      margin: 0 auto;
@@ -25,9 +23,10 @@
      grid-template-columns: 1fr 1fr;
      gap: 60px;
      align-items: center;
+     padding: 50px 0;
  }
 
- .container-contact::before {
+ /* .container-contact::before {
      content: '';
      position: absolute;
      top: 0;
@@ -37,7 +36,7 @@
      background: url(https://www.shutterstock.com/shutterstock/videos/10059473/thumb/1.jpg) center / cover no-repeat;
      opacity: 0.1;
      z-index: 1;
- }
+ } */
 
 
  .left-content {
@@ -145,9 +144,10 @@
  .submit-btn {
      width: 100%;
      padding: 18px;
-     /* background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); */
-
-     background: linear-gradient(135deg, #5d69ed 0%, #6d78f2 100%);
+     border-radius: 10px;
+     /* background: linear-gradient(135deg, #5d69ed 0%, #6d78f2 100%); */
+     background: linear-gradient(90deg, #3b82f6, #06b6d4);
+     ;
 
      color: white;
      border: none;
@@ -211,7 +211,8 @@
      background: white;
      padding: 14px 28px;
      /* border-radius: 10px; */
-     color: #3b82f6;
+     color: #333333;
+     /* color: #3b82f6; */
      text-decoration: none;
      font-weight: 600;
  }

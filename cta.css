@@ -51,7 +51,7 @@
 /* Common gradient layer */
 .cta-gradient {
     position: absolute;
-    width: 600px;
+    width: 800px;
     height: 600px;
     border-radius: 50%;
     filter: blur(140px);
@@ -61,9 +61,9 @@
 
 /* Blue gradient */
 .gradient-cta {
-    background: radial-gradient(circle, #2f7bff, transparent 70%);
-    top: 150px;
-    right: 250px;
+    background: radial-gradient(circle, #13f3fff4, transparent 70%);
+    /* top: 150px; */
+    right: 14rem;
 }
 
 
