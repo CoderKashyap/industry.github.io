@@ -67,6 +67,13 @@
 }
 
 
+.gradient-footer {
+    background: radial-gradient(circle, #13f3fff4, transparent 70%);
+    bottom: -16rem;
+    left: 18rem;
+}
+
+
 .cta-content {
     flex: 1;
     max-width: 800px;
