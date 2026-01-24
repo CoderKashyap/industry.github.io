@@ -94,6 +94,7 @@ body {
 .verticaleLine {
     border-right: 1px solid #ccc;
     height: 10rem;
+    width: 0px;
 }
 
 
@@ -1084,12 +1085,13 @@ img {
 /* Mobile responsive */
 @media (max-width: 768px) {
     .trusted-brands {
-        flex-wrap: wrap;
-        gap: 25px;
+        /* flex-wrap: wrap; */
+        gap: 30px;
+        justify-content: center;
     }
 
     .brand-logo {
-        max-height: 40px;
+        max-height: 3rem;
     }
 }
 
@@ -1186,6 +1188,8 @@ img {
     .features-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
+        margin-top: 0px;
+        padding: 0 10px;
     }
 
     .feature-title {
@@ -1268,6 +1272,57 @@ img {
     .b2b-main-title {
         font-size: 2rem;
     }
+
+    .cta-content-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .verticaleLine {
+        display: none;
+    }
+
+    .cta-to-hero-heading {
+        margin-bottom: 0px;
+        font-size: 32px;
+    }
+
+
+
+    /* Common gradient layer */
+    .hero-gradient {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        filter: blur(140px);
+        opacity: 0.7;
+        z-index: 1;
+    }
+
+    /* Blue gradient */
+    .gradient-blue {
+        background: radial-gradient(circle, #2f7bff, transparent 70%);
+        top: 20px;
+        /* right: 250px; */
+    }
+
+    /* Violet gradient */
+    .gradient-violet {
+        background: radial-gradient(circle, #8a2bff, transparent 70%);
+        top: 15px;
+        /* right: -150px; */
+    }
+
+
+    .ctaInHero {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        /* align-items: center;
+    justify-content: center; */
+    }
+
 }
 
 @media (max-width: 640px) {

@@ -103,7 +103,7 @@
     }
 
     .content-wrapper {
-        gap: 50px;
+        gap: 0px;
     }
 
     .section-title {
@@ -123,7 +123,7 @@
 @media (max-width: 868px) {
     .content-wrapper {
         grid-template-columns: 1fr;
-        gap: 40px;
+        /* gap: 40px; */
     }
 
     .image-wrapper {

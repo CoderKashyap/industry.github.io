@@ -454,7 +454,7 @@ margin-bottom: 16px;
 
 @media (max-width: 640px) {
     .partnership-showcase {
-        padding: 60px 20px;
+        padding: 0px 0px;
     }
 
     .hero-header {

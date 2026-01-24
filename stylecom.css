@@ -227,7 +227,7 @@
 .main-layout {
     display: grid;
     grid-template-columns: 35% 75%;
-    gap: 3rem;
+    gap: 2rem;
     align-items: start;
     animation: fadeInUp 0.8s ease-out 0.2s both;
 }
@@ -321,7 +321,7 @@
 }
 
 .accordion-title {
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: var(--dark);
     margin-bottom: 0.25rem;
@@ -334,7 +334,7 @@
 }
 
 .accordion-subtitle {
-    font-size: 0.875rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
     line-height: 1.5;
 }
@@ -423,7 +423,7 @@
 
 .content-text {
     flex: 1;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--text);
     line-height: 1.6;
 }
@@ -707,6 +707,18 @@
     .stat-card {
         padding: 40px 30px;
     }
+
+    .it-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}
+
+.it-content ul{
+    font-size: var(--font-size-md);
+}
+
+
+
 }
 
 @media (max-width: 640px) {
@@ -730,7 +742,7 @@
 
 @media (max-width: 380px) {
     .stat-card {
-        padding: 32px 24px;
+        padding: 20px 24px;
         border-radius: 20px;
     }
 }
