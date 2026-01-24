@@ -786,14 +786,13 @@ img {
     align-items: center;
     /* justify-content: center; */
     gap: 40px;
-    margin: 3rem 0px;
+    margin-top: 3rem;
     border-radius: 12px;
 }
 
 .brand-logo {
-    max-height: 50px;
+    max-height: 60px;
     width: auto;
-    ;
     transition: all 0.3s ease;
     cursor: pointer;
 }
