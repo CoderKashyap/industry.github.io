@@ -54,7 +54,7 @@ const accordionData = [
     {
         title: "Content & Authority Development",
         subtitle: "Technology buyers look for clarity, credibility, and proof before engaging. We create content that supports technical evaluation and internal decision-making not just awareness.",
-        image: "./images/general.jpg",
+        image: "./images/services/authority.jpeg",
         items: [
             "Use-case and solution-driven content frameworks",
             "Technical case studies and delivery proof",
@@ -67,7 +67,7 @@ const accordionData = [
     {
         title: "SEO, AEO & AI Search Optimization",
         subtitle: "Buyer discovery now happens across search engines and AI-powered answer platforms. We optimize your digital presence for SEO, AEO, and GEO to ensure visibility throughout the research cycle.",
-        image: "./images/dropdownImg.jpg",
+        image: "./images/services/aeoSeo.jpeg",
         items: [
             "Category, capability, and solution keyword mapping",
             "Technical SEO for complex websites and service architectures",
@@ -80,7 +80,7 @@ const accordionData = [
     {
         title: "Demand Generation & Paid Growth",
         subtitle: "We design demand programs aligned to your GTM motion and ICP, not broad lead generation.",
-        image: "./images/general.jpg",
+        image: "./images/services/DemandGeneration.jpeg",
         items: [
             "LinkedIn demand and account-based campaigns",
             "Search and paid media for high-intent queries",
@@ -92,7 +92,7 @@ const accordionData = [
     {
         title: "Conversion Rate Optimization (CRO)",
         subtitle: "Traffic without conversion efficiency slows growth. We optimize conversion paths to improve lead quality, sales readiness, and pipeline velocity.",
-        image: "./images/dropdownImg.jpg",
+        image: "./images/services/CRO.jpeg",
         items: [
             "High-intent landing and demo page optimization",
             "CTA, form, and funnel conversion optimization",
@@ -104,7 +104,7 @@ const accordionData = [
     {
         title: "Pipeline & Lead Conversion Optimization",
         subtitle: "Generating leads isn't enough. We focus on moving qualified demand forward through the funnel.",
-        image: "./images/general.jpg",
+        image: "./images/services/pipeline.jpeg",
 
         items: [
             "Lead qualification and routing frameworks",
@@ -129,7 +129,7 @@ const accordionData = [
     {
         title: "Analytics, Attribution & Growth Intelligence",
         subtitle: "We measure what leadership teams care about pipeline, efficiency, and revenue contribution.",
-        image: "./images/general.jpg",
+        image: "./images/services/analytics.jpeg",
         items: [
             "Funnel and conversion path analysis",
             "Attribution modeling across channels",
@@ -141,7 +141,7 @@ const accordionData = [
     {
         title: "Customer Experience, Retention & Expansion",
         subtitle: "Growth doesn't stop at acquisition. We help companies improve adoption, retention, and long-term value through aligned marketing and customer experience strategies.",
-        image: "./images/dropdownImg.jpg",
+        image: "./images/services/customerRetention.jpeg",
         items: [
             "Product and service adoption content",
             "Customer success enablement assets",
@@ -153,7 +153,7 @@ const accordionData = [
     {
         title: "Social Media & B2B Influence Marketing",
         subtitle: "Social media for technology companies is not about reach it's about credibility, influence, and deal support. We help IT brands use social platforms to support long buying cycles, engage buying committees, and reinforce authority throughout the decision journey.",
-        image: "./images/general.jpg",
+        image: "./images/services/Socialmedia.jpeg",
         items: [
             "LinkedIn organic strategy for IT decision-makers",
             "Executive and leadership personal branding (CXOs, founders)",
